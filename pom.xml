@@ -80,7 +80,7 @@
 
 		</plugins>
 		
-		<bean id="personneReaderCSV" class="org.springframework.batch.item.file.FlatFileItemReader">
+		<bean id="RelancePretReaderCSV" class="org.springframework.batch.item.file.FlatFileItemReader">
     <property name="resource" value="input/personnes.txt" />
     <property name="lineMapper">
         <bean class="org.springframework.batch.item.file.mapping.DefaultLineMapper">

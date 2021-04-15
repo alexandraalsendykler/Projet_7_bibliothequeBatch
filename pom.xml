@@ -26,17 +26,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-batch</artifactId>
 		</dependency>
-		
+
 		<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-batch</artifactId>
-        </dependency>
-        
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.16</version>
-        </dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-batch</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.16</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -79,27 +79,6 @@
 			</plugin>
 
 		</plugins>
-		
-		<bean id="RelancePretReaderCSV" class="org.springframework.batch.item.file.FlatFileItemReader">
-    <property name="resource" value="input/personnes.txt" />
-    <property name="lineMapper">
-        <bean class="org.springframework.batch.item.file.mapping.DefaultLineMapper">
-            <property name="lineTokenizer">
-                <bean
-                    class="org.springframework.batch.item.file.transform.DelimitedLineTokenizer">
-                    <property name="delimiter" value="," />
-                    <property name="names" value="id,nom,prenom,civilite" />
-                </bean>
-            </property>
-            <property name="fieldSetMapper">
-                <bean
-                    class="org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper">
-                    <property name="targetType" value="ideo.springbatch.poc.Personne" />
-                </bean>
-            </property>
-        </bean>
-    </property>
-</bean>
 
 	</build>
 

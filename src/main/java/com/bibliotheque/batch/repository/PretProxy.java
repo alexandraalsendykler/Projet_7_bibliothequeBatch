@@ -1,4 +1,4 @@
-package com.bibliothequeBatch.repository;
+package com.bibliotheque.batch.repository;
 
 import java.util.Optional;
 
@@ -9,8 +9,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-import com.bibliothequeBatch.repository.CustomProperties;
-import com.bibliothequeBatch.model.Pret;
+import com.bibliotheque.batch.model.Pret;
+import com.bibliotheque.batch.repository.CustomProperties;
 
 // CETTE CLASSE SERT A RECUPERER LES PRETS DEPASSES
 

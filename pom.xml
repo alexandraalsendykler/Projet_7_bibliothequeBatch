@@ -11,10 +11,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.bibliothequeBatch</groupId>
-	<artifactId>bibliothequeBatch</artifactId>
+	<groupId>com.bibliotheque</groupId>
+	<artifactId>batch</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bibliothequeBatch</name>
+	<name>batch</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -22,11 +22,6 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-batch</artifactId>
-		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-batch</artifactId>

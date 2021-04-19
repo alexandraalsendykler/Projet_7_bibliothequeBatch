@@ -1,4 +1,4 @@
-package com.bibliothequeBatch.model;
+package com.bibliotheque.batch.model;
 
 import java.util.List;
 

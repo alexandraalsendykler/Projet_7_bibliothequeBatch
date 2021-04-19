@@ -1,11 +1,12 @@
-package com.bibliothequeBatch.service;
+package com.bibliotheque.batch.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-import com.bibliothequeBatch.model.Utilisateur;
-import com.bibliothequeBatch.model.Pret;
-import com.bibliothequeBatch.repository.PretProxy;
+
+import com.bibliotheque.batch.model.Pret;
+import com.bibliotheque.batch.model.Utilisateur;
+import com.bibliotheque.batch.repository.PretProxy;
 
 // CETTE CLASSE SERT A ECRIRE LE CODE
 

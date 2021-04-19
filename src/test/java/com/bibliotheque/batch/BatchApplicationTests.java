@@ -1,10 +1,10 @@
-package com.bibliothequeBatch.bibliothequeBatch;
+package com.bibliotheque.batch;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BibliothequeBatchApplicationTests {
+class BatchApplicationTests {
 
 	@Test
 	void contextLoads() {

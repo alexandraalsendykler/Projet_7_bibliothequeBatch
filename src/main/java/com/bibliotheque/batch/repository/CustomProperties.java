@@ -1,4 +1,4 @@
-package com.bibliothequeBatch.repository;
+package com.bibliotheque.batch.repository;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 @Configuration
-@ConfigurationProperties(prefix="com.bibliothequeBatch")
+@ConfigurationProperties(prefix="com.bibliotheque.batch")
 public class CustomProperties {
 	
 	private String apiUrl;

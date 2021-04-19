@@ -14,7 +14,7 @@ public class RelancePretTask {
 	
 	@Scheduled(fixedRate = 5000)
 	public void execute() {
-		System.out.println("text");
+		System.out.println("j'arrive à faire envoyer un message !");
 	}
 
 }

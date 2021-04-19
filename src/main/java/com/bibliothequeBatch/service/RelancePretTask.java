@@ -1,11 +1,9 @@
 package com.bibliothequeBatch.service;
 
-import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-
+import com.bibliothequeBatch.model.Utilisateur;
 import com.bibliothequeBatch.model.Pret;
 import com.bibliothequeBatch.repository.PretProxy;
 
@@ -19,10 +17,13 @@ public class RelancePretTask {
 
 	@Scheduled(cron = "0 12 * * * *", zone = "Europe/Paris")
 	public void execute() {
-		Iterable<Pret> pret = pretProxy.getPretDateDeFin();
+		Iterable<Pret> prets = pretProxy.getPretDateDeFin();
+		for (Pret pret : prets) {
+			Utilisateur utilisateur = pret.getUtilisateur();
+			String email = utilisateur.getEmail();
 
+		}
 	}
 
 }
 
-//System.out.println("text");

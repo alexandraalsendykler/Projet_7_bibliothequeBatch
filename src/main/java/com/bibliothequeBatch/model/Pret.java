@@ -14,6 +14,17 @@ public class Pret {
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date dateDeFin;
 	private String statut;
+	private Utilisateur utilisateur;
+	
+
+
+	public Utilisateur getUtilisateur() {
+		return utilisateur;
+	}
+
+	public void setUtilisateur(Utilisateur utilisateur) {
+		this.utilisateur = utilisateur;
+	}
 
 	public Date getDateDeFin() {
 		return dateDeFin;

@@ -9,16 +9,8 @@ public class Utilisateur {
 	private String email;
 	private String motDePasse;
 	
+ 
 
-	private List<Pret> prets; 
-
-	public List<Pret> getPrets() {
-		return prets;
-	}
-
-	public void setPrets(List<Pret> prets) {
-		this.prets = prets;
-	}
 
 	public Integer getId() {
 		return id;

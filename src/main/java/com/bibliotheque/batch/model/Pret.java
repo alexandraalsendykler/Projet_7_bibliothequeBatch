@@ -15,8 +15,6 @@ public class Pret {
 	private Date dateDeFin;
 	private String statut;
 	private Utilisateur utilisateur;
-	
-
 
 	public Utilisateur getUtilisateur() {
 		return utilisateur;
@@ -57,5 +55,5 @@ public class Pret {
 	public void setDateReservation(Date dateReservation) {
 		this.dateReservation = dateReservation;
 	}
-	
+
 }

@@ -3,9 +3,11 @@ package com.bibliotheque.batch.repository;
 import java.util.Properties;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
+@Configuration
 public class MailProperties {
 
 	@Bean
@@ -14,8 +16,8 @@ public class MailProperties {
 		mailSender.setHost("smtp.gmail.com");
 		mailSender.setPort(587);
 
-		mailSender.setUsername("my.gmail@gmail.com");
-		mailSender.setPassword("password");
+		mailSender.setUsername("relance.pret.bibliotheque.oc@gmail.com");
+		mailSender.setPassword("Alex160383!");
 
 		Properties props = mailSender.getJavaMailProperties();
 		props.put("mail.transport.protocol", "smtp");

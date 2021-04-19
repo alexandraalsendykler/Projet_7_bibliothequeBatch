@@ -14,7 +14,7 @@ public class RelancePretTask {
 	@Autowired
 	private PretProxy pretProxy;
 	
-	@Scheduled(fixedRate = 5000)
+	@Scheduled(cron = "0 12 * * * *")
 	public void execute() {
 		System.out.println("text");
 	}

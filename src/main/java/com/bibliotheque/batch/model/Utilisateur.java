@@ -1,16 +1,11 @@
 package com.bibliotheque.batch.model;
 
-import java.util.List;
-
 public class Utilisateur {
 
 	private Integer id;
 	private String prenom;
 	private String email;
 	private String motDePasse;
-	
- 
-
 
 	public Integer getId() {
 		return id;

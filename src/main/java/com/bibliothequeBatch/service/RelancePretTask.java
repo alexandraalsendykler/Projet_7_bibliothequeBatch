@@ -6,6 +6,8 @@ import org.springframework.stereotype.Component;
 
 import com.bibliothequeBatch.repository.PretProxy;
 
+// CETTE CLASSE SERT A ECRIRE LE CODE
+
 @Component
 public class RelancePretTask {
 	
@@ -14,7 +16,7 @@ public class RelancePretTask {
 	
 	@Scheduled(fixedRate = 5000)
 	public void execute() {
-		System.out.println("j'arrive à faire envoyer un message !");
+		System.out.println("text");
 	}
 
 }

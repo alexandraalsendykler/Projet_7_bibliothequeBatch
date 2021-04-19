@@ -4,6 +4,8 @@ import java.util.Date;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
+//CETTE CLASSE MANIPULE LES DONNEES
+
 public class Pret {
 
 	private Integer id;

@@ -20,8 +20,8 @@ public class RelancePretTask {
 	@Autowired
 	public JavaMailSender emailSender;
 
-//	@Scheduled(cron = "0 12 * * * *", zone = "Europe/Paris")
-	@Scheduled(fixedRate = 100000)
+	@Scheduled(cron = "0 12 * * * *", zone = "Europe/Paris")
+	//@Scheduled(fixedRate = 100000)
 	public void execute() {
 		Iterable<Pret> prets = pretProxy.getPretDateDeFin();
 		for (Pret pret : prets) {

@@ -1,4 +1,4 @@
-package com.bibliotheque.batch.repository;
+package com.bibliotheque.batch.service;
 
 import java.util.Properties;
 

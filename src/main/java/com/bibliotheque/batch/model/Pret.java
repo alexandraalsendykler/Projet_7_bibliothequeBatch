@@ -15,6 +15,15 @@ public class Pret {
 	private Date dateDeFin;
 	private String statut;
 	private Utilisateur utilisateur;
+	private Exemplaire exemplaire;
+
+	public Exemplaire getExemplaire() {
+		return exemplaire;
+	}
+
+	public void setExemplaire(Exemplaire exemplaire) {
+		this.exemplaire = exemplaire;
+	}
 
 	public Utilisateur getUtilisateur() {
 		return utilisateur;

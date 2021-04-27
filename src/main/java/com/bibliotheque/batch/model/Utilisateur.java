@@ -1,12 +1,34 @@
 package com.bibliotheque.batch.model;
 
+import java.util.List;
+
+import com.bibliotheque.batch.model.Pret;
+
 public class Utilisateur {
 
 	private Integer id;
 	private String prenom;
 	private String email;
 	private String motDePasse;
+	
+	public Utilisateur() {
+		super();
+	}
+	
+	public Utilisateur(Integer id) {
+		super();
+		this.id = id;
+	}
+	private List<Pret> prets;
 
+	public List<Pret> getPrets() {
+		return prets;
+	}
+
+	public void setPrets(List<Pret> prets) {
+		this.prets = prets;
+	}
+	
 	public Integer getId() {
 		return id;
 	}

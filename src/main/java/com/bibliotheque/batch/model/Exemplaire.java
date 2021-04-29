@@ -1,8 +1,5 @@
 package com.bibliotheque.batch.model;
 
-
-
-
 public class Exemplaire {
 	private Iterable<Pret> prets;
 	private Livre livre;

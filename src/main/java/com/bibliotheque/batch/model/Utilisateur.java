@@ -2,8 +2,6 @@ package com.bibliotheque.batch.model;
 
 import java.util.List;
 
-import com.bibliotheque.batch.model.Pret;
-
 public class Utilisateur {
 
 	private Integer id;

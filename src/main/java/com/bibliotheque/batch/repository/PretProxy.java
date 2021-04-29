@@ -1,7 +1,5 @@
 package com.bibliotheque.batch.repository;
 
-import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
@@ -10,9 +8,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 import com.bibliotheque.batch.model.Pret;
-import com.bibliotheque.batch.repository.CustomProperties;
-
-// CETTE CLASSE SERT A RECUPERER LES PRETS DEPASSES
 
 @Component
 public class PretProxy {

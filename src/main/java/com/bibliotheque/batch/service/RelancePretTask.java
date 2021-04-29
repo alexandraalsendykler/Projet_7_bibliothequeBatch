@@ -12,7 +12,6 @@ import com.bibliotheque.batch.model.Pret;
 import com.bibliotheque.batch.model.Utilisateur;
 import com.bibliotheque.batch.repository.PretProxy;
 
-// CETTE CLASSE SERT A ECRIRE LE CODE
 
 @Component
 public class RelancePretTask {

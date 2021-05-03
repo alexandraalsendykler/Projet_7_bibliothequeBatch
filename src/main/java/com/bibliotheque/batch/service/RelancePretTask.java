@@ -12,7 +12,6 @@ import com.bibliotheque.batch.model.Pret;
 import com.bibliotheque.batch.model.Utilisateur;
 import com.bibliotheque.batch.repository.PretProxy;
 
-
 @Component
 public class RelancePretTask {
 

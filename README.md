@@ -16,7 +16,7 @@ spring.mail.port=587
 
 spring.mail.username=<relance.pret.bibliotheque.oc@gmail.com>
 
-spring.mail.password=<alex160383!>
+spring.mail.password= (à demander si besoin)
 
 spring.mail.properties.mail.smtp.auth=true
 
